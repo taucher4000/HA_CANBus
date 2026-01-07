@@ -1,6 +1,6 @@
 name: "HA_CANBus"
 description: "CanBus integration"
-version: "0.0.01"
+version: "0.0.1"
 slug: "ha_canbus"
 init: false
 startup: services
