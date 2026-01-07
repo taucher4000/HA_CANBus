@@ -11,6 +11,6 @@ RUN apk add --no-cache python3 py3-pip git \
     && /canbus/bin/pip install --upgrade pip \
     && cd /canbus \
     && git clone https://github.com/danielfett/miqro_can.git \
-    && /canbus/bin/pip3 install -r requirements.txt 
+    && /canbus/bin/pip3 install -r miqro_can/requirements.txt 
    
 CMD [ "/run.sh" ]
