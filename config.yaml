@@ -1,0 +1,16 @@
+name: "HA_CANBus"
+description: "CanBus integration"
+version: "0.0.01"
+slug: "ha_canbus"
+init: false
+startup: services
+boot: auto
+
+arch:
+  - amd64
+  - aarch64
+  - armv7
+  - armhf
+
+options: {}
+schema: {}
