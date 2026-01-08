@@ -1,0 +1,10 @@
+configuration:
+  MQTTBroker:
+    name: "MQTT-Broker"
+    description: "Hostname oder Dienstname deines MQTT-Brokers (z. B. core-mosquitto)."
+  MQTTUser:
+    name: "MQTT-Benutzername"
+    description: "Optionaler MQTT-Benutzername, falls dein Broker eine Authentifizierung erfordert."
+  MQTTPassword:
+    name: "MQTT-Passwort"
+    description: "Optionales MQTT-Passwort, falls dein Broker eine Authentifizierung erfordert."
