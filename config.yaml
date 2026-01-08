@@ -12,7 +12,9 @@ arch:
   - armv7
   - armhf
 
-privileged: true
+privileged:
+  - NET_ADMIN
+  - NET_RAW
 
 devices:
   - /dev/net/tun
