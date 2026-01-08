@@ -12,5 +12,12 @@ arch:
   - armv7
   - armhf
 
+privileged: true
+
+devices:
+  - /dev/net/tun
+
+host_network: true
+
 options: {}
 schema: {}
