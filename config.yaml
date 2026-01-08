@@ -1,7 +1,7 @@
-name: "HA_CANBus"
-description: "CanBus integration"
+name: "CANBus"
+description: "comfort CanBus integration of your Fiat Ducato based campervan into Home Assistant"
 version: "0.0.1"
-slug: "ha_canbus"
+slug: "canbus"
 init: false
 startup: services
 boot: auto
