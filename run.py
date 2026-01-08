@@ -1,4 +1,4 @@
-#!/inetbox/bin/python3
+#!/canbus/bin/python3
 # -*- coding: utf-8 -*-
 import json
 import yaml
