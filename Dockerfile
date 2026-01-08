@@ -2,7 +2,7 @@ ARG BUILD_FROM
 FROM $BUILD_FROM
 
 RUN mkdir /canbus
-COPY run.sh /canbus/
+COPY run.py /canbus/
 RUN chmod a+x /canbus/run.py
 
 # Install dependencies, create venv, upgrade pip, install miqro_can
