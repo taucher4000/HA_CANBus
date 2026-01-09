@@ -7,6 +7,7 @@ from pathlib import Path
 from miqro_can.canbus import CANService
 import miqro
 import random
+from time import sleep
 
 
 CONFIG_FILE = Path("/etc/miqro.yml")
@@ -52,4 +53,8 @@ MIQRO_CONFIG["log_level"] = "DEBUG" if ha_options["Debug"] else "INFO"
 save_yaml(MIQRO_CONFIG, CONFIG_FILE)
 
 if __name__ == '__main__':
-    sys.exit(miqro.run(CANService))
+    while True:
+        print("This loop will run forever!")
+        sleep(10)
+
+#    sys.exit(miqro.run(CANService))
