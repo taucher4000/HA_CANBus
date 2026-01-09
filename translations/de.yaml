@@ -8,3 +8,6 @@ configuration:
   MQTTPassword:
     name: "MQTT-Passwort"
     description: "Optionales MQTT-Passwort, falls dein Broker eine Authentifizierung erfordert."
+  Debug:
+    name: "Debug"
+    description: "Aktiviere Debug-Ausgaben."

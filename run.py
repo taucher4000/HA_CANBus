@@ -47,6 +47,7 @@ ha_options = load_json(OPTIONS_FILE)
 MIQRO_CONFIG["broker"]["host"] = ha_options["MQTTBroker"]
 MIQRO_CONFIG["auth"]["username"] = ha_options["MQTTUser"]
 MIQRO_CONFIG["auth"]["password"] = ha_options["MQTTPassword"]
+MIQRO_CONFIG["log_level"] = "DEBUG" if ha_options["Debug"] else "INFO"
 
 save_yaml(MIQRO_CONFIG, CONFIG_FILE)
 
