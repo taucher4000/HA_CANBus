@@ -1,6 +1,6 @@
 name: "CANBus"
 description: "comfort CanBus integration of your Fiat Ducato based campervan into Home Assistant"
-version: "0.0.3"
+version: "0.0.4"
 slug: "canbus"
 init: false
 startup: services
